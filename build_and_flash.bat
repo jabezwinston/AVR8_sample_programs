@@ -1,7 +1,7 @@
 @echo off
 
 ::Add 'C:\Program Files (x86)\Arduino\hardware\tools\avr\bin' to environment variable PATH
-set PATH=C:\Program Files (x86)\Arduino\hardware\tools\avr\bin;%PATH%
+::set PATH=C:\Program Files (x86)\Arduino\hardware\tools\avr\bin;%PATH%
  
 :: Delete all .hex and .out files 
 del *.hex *.out

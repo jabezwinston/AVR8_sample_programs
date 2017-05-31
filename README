@@ -2,3 +2,12 @@ This small project describes on how to build and flash 'Blink LED' program on Ar
 
 This also gives some insights on how Arduino IDE internally works.
 
+Links:
+
+ATmega328P and Arduino Uno
+	https://www.arduino.cc/en/uploads/Main/Arduino_Uno_Rev3-schematic.pdf
+	http://www.microchip.com/wwwproducts/en/ATmega328P
+	http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf
+
+AVR GCC
+	https://sourceforge.net/projects/winavr/files/

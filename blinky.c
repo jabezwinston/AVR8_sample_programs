@@ -11,7 +11,7 @@
 #include<avr/io.h>
 #include<util/delay.h>
 
-void main()
+int main()
 {
 DDRB|=(1<<5); //Set PB5 as output by setting 5th bit DDRB register  
 
@@ -22,6 +22,6 @@ DDRB|=(1<<5); //Set PB5 as output by setting 5th bit DDRB register
 	PORTB&=~(1<<5); //Set pin 13 (PB5)- Low
 	_delay_ms(100); //Wait for 100ms
 	}
-	
+return 0;	
 //Refer Atmega328P datasheet for details regarding DDRB and PORTB
 }
