@@ -1,0 +1,4 @@
+This small project describes on how to build and flash 'Blink LED' program on Arduino Uno board without the use of Arduino IDE.
+
+This also gives some insights on how Arduino IDE internally works.
+
