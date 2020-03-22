@@ -6,7 +6,9 @@
  *
  */
 
+#ifndef F_CPU
 #define F_CPU 16e6  // Arduino Uno's ATmega328P runs at 16MHz 
+#endif
 
 #include<avr/io.h>
 #include<util/delay.h>

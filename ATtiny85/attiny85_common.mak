@@ -1,3 +1,14 @@
+ifeq ($(OS),Windows_NT)
+    ifeq ($(notdir $(MAKE)),mingw32-make)
+        SHELL = cmd
+        RM  = del /s /q
+    else
+        RM = rm -rf
+    endif
+else
+    RM = rm -rf
+endif
+
 ############ Tools #########################
 
 CC = avr-gcc
@@ -55,4 +66,4 @@ flash : $(HEX)
 	@$(FLASH_TOOL) --run --type intel-hex $(HEX)
  
 clean:
-	rm -rf $(OBJ_DIR) $(EXE) $(HEX)
+	$(RM) $(OBJ_DIR) $(EXE) $(HEX)
